@@ -1,0 +1,36 @@
+.bg-header {
+    background-image: url('../img/imagenHeader.jpg'); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre todo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    height: 100vh; /* Ocupa el 100% del viewport */
+    width: 100%; /* Ocupa el ancho completo */
+}
+
+/* Opcional: Fondo oscuro transparente en el navbar */
+.navbar {
+    z-index: 1050; /* Un valor alto para que el navbar siempre quede por encima */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+}
+
+  
+
+
+.hover-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+    opacity: 0; /* Oculta el overlay por defecto */
+    transition: opacity 0.3s ease-in-out; /* Efecto suave */
+  }
+  
+  .position-relative:hover .hover-overlay {
+    opacity: 1; /* Muestra el overlay al pasar el mouse */
+  }
+
+  
+  .gallery-image {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 250px; /* Ajusta todas las imágenes a una altura fija */
+    object-fit: cover; /* Ajusta las imágenes al tamaño definido sin deformarlas */
+  }
+  
+  

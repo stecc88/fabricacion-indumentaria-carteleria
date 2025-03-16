@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - Jorge Rodriguez</title>
+    <!-- Estilo de Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Logos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Sección principal -->
+    <section class="container-fluid px-0 py-0">
+      <!-- Encabezado -->
+      <header class="position-relative bg-header">
+        <!-- Barra de navegación -->
+        <nav
+          class="navbar navbar-dark navbar-expand-lg position-absolute top-0 start-0 w-100"
+        >
+          <div class="container-fluid">
+            <!-- Nombre de la marca -->
+            <a class="navbar-brand text-white" href="#">Jorge Rodriguez</a>
+            <!-- Botón hamburguesa para dispositivos móviles -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Enlaces del menú -->
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white active" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./pages/galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Contenido principal -->
+      <main class="container my-5">
+        <!-- Sección de presentación -->
+        <section class="container py-5 position-relative">
+          <div class="row align-items-center">
+            <!-- Imagen lateral izquierda -->
+            <div class="col-md-3 text-start p-0 position-relative">
+              <img
+                src="./img/uniformeTrabajo.jpeg"
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Imagen izquierda"
+              />
+            </div>
+
+            <!-- Texto centrado con superposición -->
+            <div
+              class="col-md-6 text-center position-relative"
+              style="z-index: 2; margin-top: -50px"
+            >
+              <div class="p-4 bg-light shadow rounded">
+                <h1 class="fw-bold text-dark">
+                  Fabricación de Indumentaria y Cartelería
+                </h1>
+                <p class="lead mt-3 text-secondary">
+                  Nos especializamos en la fabricación de indumentaria
+                  personalizada y cartelería para escuelas, negocios y empresas,
+                  ofreciendo productos de alta calidad que reflejan la identidad
+                  de tu institución o marca. Utilizamos materiales duraderos y
+                  técnicas de impresión avanzadas para garantizar acabados
+                  profesionales y resistentes. Confía en nosotros para destacar
+                  tu imagen con uniformes que inspiran confianza y cartelería
+                  que atrae a tus clientes. ¡Transformamos tu visión en realidad
+                  con diseños personalizados y atención a cada detalle!
+                </p>
+                <a href="#" class="btn btn-dark btn-lg mt-3"
+                  >Solicitar información</a
+                >
+              </div>
+            </div>
+
+            <!-- Imagen lateral derecha -->
+            <div class="col-md-3 align-self-end text-end p-0 position-relative">
+              <img
+                src="./img/uniformeTrabajo.jpeg"
+                class="img-fluid w-100 h-100 object-fit-cover"
+                alt="Imagen derecha"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Pie de página -->
+      <footer class="bg-dark text-light py-4">
+        <div class="container">
+          <div class="row">
+            <!-- Información de la empresa -->
+            <div class="col-md-4">
+              <h5 class="fw-bold">Acerca de Nosotros</h5>
+              <p>
+                Nos especializamos en la fabricación de indumentaria
+                personalizada y cartelería de alta calidad para escuelas,
+                negocios y empresas. Transformamos tu visión en realidad con
+                diseños únicos y duraderos.
+              </p>
+            </div>
+
+            <!-- Enlaces rápidos -->
+            <div class="col-md-4">
+              <h5 class="fw-bold">Enlaces Rápidos</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="./index.html" class="text-light text-decoration-none">Inicio</a>
+                </li>
+                <li>
+                  <a href="./pages/servicios.html" class="text-light text-decoration-none">Servicios</a>
+                </li>
+                <li>
+                  <a href="./pages/galeria.html" class="text-light text-decoration-none">Galería</a>
+                </li>
+                <li>
+                  <a href="./pages/contacto.html" class="text-light text-decoration-none">Contacto</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Información de contacto -->
+            <div class="col-md-4">
+              <h5 class="fw-bold">Contáctanos</h5>
+              <p>
+                <i class="bi bi-geo-alt-fill"></i> Dirección: Calle Ejemplo 123,
+                La Rioja, Argentina<br />
+                <i class="bi bi-telephone-fill"></i> Teléfono: +54 123 456
+                789<br />
+                <i class="bi bi-envelope-fill"></i> Email:
+                info@indumentariaycarteleria.com
+              </p>
+              <div>
+                <a href="#" class="text-light me-3"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="text-light me-3"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="bg-light" />
+          <div class="text-center">
+            <p class="mb-0">
+              &copy; 2025 Indumentaria y Cartelería. Todos los derechos
+              reservados.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="./script/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
